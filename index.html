@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Client-Side Audio Emotion Detector</title>
+</head>
+<body>
+
+<h1>Client-Side Audio Emotion Detector</h1>
+
+<button id="initBtn">Initialize</button>
+<button id="startBtn" disabled>Start Detection</button>
+
+<div id="status">Status: Not initialized</div>
+
+<pre id="output"></pre>
+
+<canvas
+  id="emotionChart"
+  height="220"
+  style="border:1px solid #ccc; margin-top:10px;">
+</canvas>
+
+
+<!-- TensorFlow.js (global) -->
+<script src="./tf.min.js"></script>
+
+<script src="https://unpkg.com/meyda/dist/web/meyda.min.js"></script>
+
+
+<!-- Main app -->
+<script type="module" src="./src/main.js"></script>
+
+</body>
+</html>
