@@ -1,14 +1,3 @@
-Perfect — below is a **complete, professional, copy-paste ready `README.md`** tailored exactly to your **Phase-1 stabilized project**, written in a way that is:
-
-* Honest about limitations
-* Technically credible
-* Portfolio / recruiter friendly
-* Cleanly sets up **Phase-2 (Option-4)**
-
-You can paste this **as-is** into your GitHub repository.
-
----
-
 # 🎙️ Client-Side Audio Emotion Detector (Phase-1)
 
 A **fully client-side, cross-browser Audio Emotion Detection system** that runs entirely in the browser using **JavaScript, Web Audio API, MFCC features, and TensorFlow.js**.
